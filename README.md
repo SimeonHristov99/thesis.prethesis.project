@@ -11,10 +11,7 @@ Prethesis project used as a baseline for the thesis project. More information is
 - [X] Update structure of documentation so that it is ready for review.
 - [X] Add links to the papers in MLA Style.
 - [ ] Get approval for structure.
-- [ ] Write the introduction.
-  - [ ] what problem there is
-  - [ ] why it is important
-  - [ ] how can we solve it
+  - [ ] Is the introduction ok?
 - [ ] Write the implementation part.
   - [ ] used Python scripts
   - [ ] libraries and what they do
