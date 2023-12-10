@@ -11,6 +11,7 @@ Prethesis project used as a baseline for the thesis project. More information is
 
 ## Resources
 
-- [Cal Newport - The Secrets To Cal Newport's Article Writing System](https://www.youtube.com/watch?v=gErbZ3A6ozM)
+- [The Secrets To Cal Newport's Article Writing System](https://www.youtube.com/watch?v=gErbZ3A6ozM)
   - Cal Newport shares his secrets to his long form article writing system.
-- [ddd](here.com)
+- [Robert Greene's Proven System For Writing Like A Pro](https://www.youtube.com/watch?v=E0S9DhDecWE)
+  - Robert Greene shares writing tips learned over 30 years of writing books.
