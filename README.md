@@ -10,23 +10,23 @@ Prethesis project used as a baseline for the thesis project. More information is
 - [X] Extend plan by breaking down the writing process into subtasks.
 - [X] Update structure of documentation so that it is ready for review.
 - [X] Add links to the papers in MLA Style.
-- [ ] Get approval for structure.
-  - [ ] Is the introduction ok?
-- [ ] Write the implementation part.
-  - [ ] used Python scripts
-  - [ ] libraries and what they do
-  - [ ] explain the pipeline (maybe also include a diagram)
-    - [ ] explain each step in the pipeline (maybe include commands to start parts of it)
-- [ ] Write the analysis part.
-  - [ ] Provide statistics about the final dataset.
-    - [ ] Explain each sheet in the Excel file.
-- [ ] Write about train/test split.
-  - [ ] Maybe also about mini-set creation.
-- [ ] Write about obtaining Bard baseline.
-  - [ ] Explain the API (various problems there are when interacting with it).
-  - [ ] What prompt was used.
-  - [ ] Comparison with previous backend (was is PaLM - research) and Gemini.
-  - [ ] Performance and Error analysis on mini-set.
+- [X] Get approval for structure.
+  - [X] Is the introduction ok?
+- [X] Write the implementation part.
+  - [X] used Python scripts
+  - [X] libraries and what they do
+  - [X] explain the pipeline (maybe also include a diagram)
+    - [X] explain each step in the pipeline (maybe include commands to start parts of it)
+- [X] Write the analysis part.
+  - [X] Provide statistics about the final dataset.
+    - [X] Explain each sheet in the Excel file.
+- [X] Write about train/test split.
+  - [X] Maybe also about mini-set creation. In the end, decided not to.
+- [X] Write about obtaining Bard baseline.
+  - [X] Explain the API (various problems there are when interacting with it).
+  - [X] What prompt was used.
+  - [X] Comparison with previous backend (was it PaLM - research) and Gemini.
+  - [X] Performance and Error analysis on 1,400 samples.
 
 ## Resources
 

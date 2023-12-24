@@ -1,0 +1,82 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "default": [],
+    "title": "Exam",
+    "items": {
+        "type": "object",
+        "title": "Question",
+        "required": [
+            "id",
+            "question",
+            "answerKey",
+            "info"
+        ],
+        "properties": {
+            "id": {
+                "type": "string",
+                "title": "Question Id"
+            },
+            "question": {
+                "type": "object",
+                "title": "Question Source",
+                "required": [
+                    "question_snapshot",
+                    "question_number"
+                ],
+                "properties": {
+                    "question_snapshot": {
+                        "type": "string",
+                        "title": "Path to the question"
+                    },
+                    "question_number": {
+                        "type": "integer",
+                        "title": "Question Number"
+                    }
+                }
+            },
+            "answerKey": {
+                "type": "string",
+                "title": "Answer"
+            },
+            "info": {
+                "type": "object",
+                "title": "Meta Information",
+                "required": [
+                    "grade",
+                    "subject",
+                    "language",
+                    "extra"
+                ],
+                "properties": {
+                    "grade": {
+                        "type": "integer",
+                        "title": "Grade"
+                    },
+                    "subject": {
+                        "type": "string",
+                        "title": "Subject"
+                    },
+                    "language": {
+                        "type": "string",
+                        "title": "Language"
+                    },
+                    "extra": {
+                        "type": "object",
+                        "title": "Any Other Extra Information",
+                        "required": [
+                            "date"
+                        ],
+                        "properties": {
+                            "date": {
+                                "type": "string",
+                                "title": "The date on which the exam was given"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
